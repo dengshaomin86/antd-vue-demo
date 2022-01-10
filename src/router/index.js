@@ -29,6 +29,11 @@ const routes = [
     path: '/portal/:id?',
     name: 'Portal',
     component: () => import(/* webpackChunkName: "Portal" */ '../views/Portal.vue')
+  },
+  {
+    path: '/TabView/:id?',
+    name: 'TabView',
+    component: () => import(/* webpackChunkName: "TabView" */ '../views/TabView.vue')
   }
 ];
 
